@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+header {
+  /* border: 4px solid blue; */
+  background: radial-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.85)
+    ),
+    url(./assets/netflixbg.jpg) no-repeat;
+  background-size: cover;
+}
+
+#navbar {
+  /* border: 4px solid purple; */
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding-top: 0.6rem;
+  position: relative;
+}
+
+#navbar img {
+  /* border: 4px solid gold; */
+}
+
+#logo {
+  width: 10.8rem;
+}
+
+#outer-content {
+  /* border: 5px solid green; */
+}
+
+#inner-content {
+  /* border: 5px solid orange; */
+  margin-left: 20rem;
+  margin-right: 20rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: auto;
+}
+
+#content {
+  /* border: 5px solid purple; */
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#h3-input {
+  /* border: 2px solid skyblue; */
+}
+
+#headings {
+  /* border: 2px solid yellowgreen; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#video-div-1 {
+  /* border: 4px solid pink; */
+  position: relative;
+}
+
+#video-div-1 img {
+  /* border: 5px solid gray; */
+  height: 23rem;
+}
+
+#video-div-1 video {
+  position: absolute;
+  top: 19%;
+  left: 13%;
+  z-index: -1;
+  height: 13rem;
+}
+
+#download-div-2 {
+  /* border: 4px solid pink; */
+  position: relative;
+}
+
+#download-div-2 img {
+  /* border: 2px solid green; */
+  height: 20rem;
+}
+
+#downloader {
+  border: 2px solid rgb(85, 83, 83);
+  border-radius: 1rem;
+  background-color: #000;
+  transform: translate(17%, -80%);
+  width: 75%;
+  height: 20%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+#downloader img {
+  /* border: 2px solid violet; */
+  height: 100%;
+}
+
+#downloader-headings {
+  /* border: 2px solid yellowgreen; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-left: 1rem;
+}
+
+#heading-4 {
+  color: white;
+  font-size: 1rem;
+}
+
+#heading-6 {
+  color: blue;
+  font-size: 0.8rem;
+}
+
+#video-div-3 {
+  /* border: 4px solid pink; */
+  position: relative;
+}
+
+#video-div-3 img {
+  /* border: 5px solid gray; */
+  height: 23rem;
+}
+
+#video-div-3 video {
+  position: absolute;
+  top: 9%;
+  left: 17%;
+  z-index: -1;
+  height: 11rem;
+}
+
+#img-div-4 img {
+  /* border: 2px solid green; */
+  height: 23rem;
+}
+
+#sign-in {
+  background-color: red;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  width: 8%;
+  padding: 1rem;
+  font-size: 1rem;
+  position: absolute;
+  top: 0.7rem;
+  right: 1rem;
+}
+
+#sign-in:hover {
+  background-color: rgb(252, 87, 87);
+}
+
+.heading-1 {
+  /* border: 2px solid purple; */
+  color: white;
+  font-size: 3.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.heading-2 {
+  /* border: 2px solid purple; */
+  color: white;
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.heading-3 {
+  /* border: 2px solid purple; */
+  color: white;
+  font-size: 1.3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.heading-4 {
+  /* border: 2px solid purple; */
+  color: white;
+  font-size: 1.3rem;
+}
+
+.enter-email-submit {
+  /* border: 2px solid red; */
+  display: flex;
+  padding: 0.3rem;
+  margin-left: 5rem;
+}
+
+.enter-email-submit input {
+  width: 70%;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+}
+
+.enter-email-submit button {
+  background-color: rgb(255, 4, 4);
+  color: white;
+  width: 20%;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+}
+
+.enter-email-submit button:hover {
+  background-color: rgb(252, 87, 87);
+}
+
+.separate {
+  height: 1vh;
+  background-color: rgb(85, 83, 83);
+}
+
+.container {
+  /* border: 5px solid orange; */
+  height: 30rem;
+  padding: 3rem 12rem 3rem 12rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container-heading-1 {
+  /* border: 2px solid purple; */
+  color: white;
+  font-size: 2.2rem;
+  /* margin-bottom: 1rem; */
+  padding: 0.5rem;
+  margin: 0.2rem;
+}
+
+.container-heading-3 {
+  /* border: 2px solid purple; */
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin: 0.2rem;
+}
+
+.faq-div {
+  /* border: 3px solid gray; */
+  padding: 1.5rem;
+  background-color: #303030;
+}
+
+.faq-container {
+  /* border: 5px solid orange; */
+  padding: 4rem 3rem;
+}
+
+.faq {
+  margin: 4rem 17rem;
+  /* border: 4px solid springgreen; */
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.4rem;
+}
+
+.faq-heading-1 {
+  /* border: 2px solid slateblue; */
+  color: white;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.inner {
+  /* border: 2px solid purple; */
+}
+
+.input-cover {
+  /* border: 2px solid yellow; */
+  margin: 0.5rem;
+  margin-left: 17rem;
+  margin-right: 17rem;
+}
+
+.footer-items {
+  /* border: 2px solid green; */
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* gap: 20px; */
+  grid-column-gap: 20px;
+}
+
+.footer-items div {
+  /* border: 2px solid grey; */
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+  opacity: 60%;
+}
+
+.footer-container {
+  /* border: 2px solid pink; */
+  margin: 0 15rem;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.footer-container p {
+  color: white;
+  margin-bottom: 1rem;
+  opacity: 60%;
+}
+
+.last {
+  margin-top: 0.5rem;
+}
+
+.language-bottom {
+  background: black;
+  border-radius: 2px;
+  color: white;
+  width: 15%;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  font-size: 1rem;
+  opacity: 60%;
+}
+
+.language-top {
+  background: black;
+  border-radius: 2px;
+  color: white;
+  width: 8%;
+  padding: 1rem;
+  font-size: 1rem;
+  position: absolute;
+  top: 0.7rem;
+  right: 10rem;
+}
